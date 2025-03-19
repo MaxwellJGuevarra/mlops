@@ -1,0 +1,1 @@
+Maxwell GuevarraMSDS 603-01This repository is for the MSDS 603 MLOps course at the University of San Francisco. All labs, data used, models built, and other related coursework will be stored in this repository.
