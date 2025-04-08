@@ -1,11 +1,8 @@
 stages:
   prepare:
-    cmd: python src/create_features.py
+    cmd: python3 ./src/preprocessing.py
     deps:
-      - data/adult.data
-      - data/adult.test
-      - src/create_features.py
+      - data/1553768847-housing.csv
     outs:
-      - data/pipeline.pkl
-      - data/processed_train_data.csv
-      - data/processed_test_data.csv
+      - data/preprocessed_training_house.csv
+      - data/preprocessed_test_house.csv
